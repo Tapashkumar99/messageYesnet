@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,93 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+
+body {
+  width: 70%;
+  margin-top: 5%;
+  margin-left: 15%;
+  background-color: bisque;
+}
+.bar1_detail {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  background-color: white;
+  padding: 4rem;
+  border-radius: 2rem;
+}
+.bar2_detail {
+  display: flex;
+}
+.black_bar {
+  width: 70%;
+  height: 3px;
+  background-color: black;
+}
+.white_bar {
+  width: 30%;
+  height: 3px;
+  background-color: rgb(216, 215, 215);
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1 {
+  width: 15rem;
+  height: 6rem;
+  background-color: rgb(255, 231, 123);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.card2 {
+  width: 15rem;
+  height: 6rem;
+  background-color: rgb(255, 231, 123);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+
+/* ======================= for small screen ================== */
+
+
+@media only screen and (max-width: 600px){
+  body {
+    width: 94%;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .container {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  .card1 {
+    width: 9.6rem;
+    height: 4.2rem;
+    background-color: rgb(255, 231, 123);
+    border-radius: 0.6rem;
+    padding: 0.3rem;
+    padding-left: 0.8rem;
+    margin-left: 0.3rem;
+  }
+  .card2 {
+    width: 9.6rem;
+    height: 4.2rem;
+    background-color: rgb(255, 231, 123);
+    border-radius: 0.6rem;
+    padding: 0.3rem;
+    padding-left: 0.8rem;
+    margin-right: 0.3rem;
+  }
+  .card1 {
+
   }
 }
