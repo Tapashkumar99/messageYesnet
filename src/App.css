@@ -103,22 +103,22 @@ body {
     border-radius: 0.5rem;
   }
   .card1 {
-    width: 9.6rem;
+    width: 9.3rem;
     height: 4.2rem;
     background-color: rgb(255, 231, 123);
     border-radius: 0.6rem;
     padding: 0.3rem;
     padding-left: 0.8rem;
-    margin-left: 0.3rem;
+    margin-left: 0.2rem;
   }
   .card2 {
-    width: 9.6rem;
+    width: 9.3rem;
     height: 4.2rem;
     background-color: rgb(255, 231, 123);
     border-radius: 0.6rem;
     padding: 0.3rem;
     padding-left: 0.8rem;
-    margin-right: 0.3rem;
+    margin-right: 0.2rem;
   }
   .card1 {
 
